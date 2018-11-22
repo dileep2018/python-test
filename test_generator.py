@@ -1,6 +1,6 @@
 import unittest
 
-from buzz import generator
+//from buzz import generator
 
 class GeneratorTest(unittest.TestCase):
 
@@ -20,7 +20,6 @@ class GeneratorTest(unittest.TestCase):
  def test_generate_buzz_of_at_least_five_words():
     phrase = generator.generate_buzz()
     assert len(phrase.split()) >= 5
-    
 if __name__ == '__main__':
     unittest.main() 
 
