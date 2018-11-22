@@ -1,7 +1,5 @@
 import unittest
 
-//from buzz import generator
-
 class GeneratorTest(unittest.TestCase):
 
  def test_sample_single_word():
